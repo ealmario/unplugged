@@ -1,0 +1,332 @@
+/****** General Styles ******/
+
+
+html {
+    
+}
+
+body { 
+
+}
+
+ul,
+ol {
+
+}
+
+a {
+
+}
+
+h2 {
+
+}
+
+h3,
+h4 {
+
+}
+
+p {
+    
+}
+
+img {
+
+}
+
+figure {
+
+}
+
+address {
+
+}
+
+.content-wrapper {
+    
+}
+/****** Base Header - Footer Styles *****/
+
+header,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+/* Header Stlyes */
+
+header {
+    padding: 15px 0;
+}
+
+header .content-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 0;
+}
+
+.header-divider {
+    width: 100%;
+    height: 1px;
+    margin: 10px 0 20px 0;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 60%;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+footer {
+    flex-direction: column;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer .content-wrapper{
+    width: 55%;
+    margin: 50px 0;
+}
+footer .contact {
+    margin-bottom:50px;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .social-icons p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .copyright{
+    margin: 20px 0;
+}
+/****** Mobile Styles - Homepage *****/
+
+/* Hero Area */
+.hero-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row-wrap;
+}
+
+/* Aside */
+
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row-wrap;
+}
+
+/* Features */
+
+.features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row-wrap;
+}
+
+.features .features-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row-wrap;
+}
+
+/* Reviews */
+.reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row-wrap;
+}
+/****** About Page ******/
+
+.mission {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row-wrap;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row-wrap;
+}
+
+/***** FAQ Page *****/
+.faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row-wrap;
+}
+
+.faq .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row-wrap;
+}
+/* Footer Styles */ 
+
+
+
+@media only screen and (min-width: 768px) {
+    /* Tablet styles here */
+
+    .content-wrapper{
+    max-width: 640px;
+    margin: 100px 0;
+    }
+
+/* Header */
+
+header{
+    justify-content: 
+}
+
+header .content-wrapper{
+    justify-content: 
+}
+
+header nav {
+    width:
+}
+
+header nav ul{
+    justify-content: 
+}
+
+.header-divider {
+    display:none;
+}
+
+/* Hero Area */
+
+/* Aside */
+aside .content-wrapper {
+    margin: 50px 0;
+    display: flex;
+    justify-content:;
+    flex-flow:
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+    width: 
+    margin: 0;
+}
+
+/* Features */
+
+.features article {
+    display: flex;
+    justify-content:;
+    flex-flow:;
+    flex-basis:;
+}
+
+.features .features-item-description {
+    width: 
+}
+
+/* Reviews */
+.reviews article {
+    display: flex;
+    justify-content: 
+}
+
+.reviews article div {
+    width:
+}
+
+/* FAQ */
+
+.faq-content {
+    flex-basis: 40%;
+}
+
+.faq .content-wrapper{
+    justify-content: space-between;
+}
+
+.faq h2 {
+    width: 100%;
+}
+/* About */
+
+.mission-content {
+    display:
+    justify-content: space-between;
+    align-items:
+}
+
+.mission-content p{
+    width:;
+}
+
+.contact-section, .content-wrapper h2 {
+    width:;
+}
+
+.contact-content {
+    display:;
+    justify-content:;
+    align-items:;
+}
+/* Footer*/
+
+footer .content-wrapper{
+    width:
+    margin: 100px 0;
+}
+
+footer .content {
+
+}
+
+footer .contact {
+    margin-bottom:0;
+}
+
+footer .copyright {
+    width:
+}
+}
+
+
+@media only screen and (min-width: 1200px) {
+    /* Desktop styles here*/
+}
