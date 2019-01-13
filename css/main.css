@@ -99,7 +99,61 @@ textarea {
  .content-wrapper {
     width: 90%;
     margin: 50px 0;
- }  
+ }
+ 
+ html {
+    font-size: 16px;
+ }
+
+ body {
+    background: #2a423a;
+    color: #e2e3ed;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    text-align: left;
+}
+
+ ul, 
+ ol {
+    list-style-type: none;
+ }
+
+ a {
+    color: #e2e3ed;
+    text-decoration: none;
+    font-weight: bold;
+ }
+
+ h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.875em;
+}
+
+ h3,
+ h4 {
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 0;
+    font-size: 1.125em;
+}
+
+ p {
+    font-size: 0.875em;
+    line-height: 1.285em;
+ }
+
+ img {
+
+ }
+
+ figure {
+
+ }
+
+ address {
+    color: #e2e3ed;
+    font-style: normal;
+ }
+
 /*---------------- Header and Footer Base Styles ------------*/
 
 header,
@@ -112,6 +166,7 @@ footer {
 
 /* Header Styles */
 header {
+    background: #202322;
     padding: 15px 0;
 }
 
@@ -149,6 +204,7 @@ header nav ul li{
 
 /* Footer Styles*/
 footer {
+    background: #202322; 
     flex-direction: column;
 }
 
@@ -194,6 +250,8 @@ footer .copyright {
 }
 
 aside {
+    background: #527158;
+    color: #e2e3ed;
     margin: 15px 0;
     display: flex;
     justify-content: center;
@@ -226,6 +284,8 @@ aside {
     flex-flow: row wrap;
 }
 .reviews {
+    background: #2a423a;
+    color: #e2e3ed;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -281,7 +341,31 @@ aside {
     margin-bottom: 50px;
  }
 
-
+/* Form */
+aside .form {
+    margin-top: 30px;
+  }
+   
+  input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    color: #2a423a;
+    font-style: italic;
+  }
+   
+  input[type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+  }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -421,13 +505,14 @@ aside .content-wrapper .form{
     flex-flow: column wrap;
     flex-basis: 50%;
   }
-
-.features .features-item-description {
+  
+  .features .features-item-description {
     width: 50%;
   }
+
 /* Reviews */
 .reviews article div {
-    width: 50%;
+    width: 49%;
 }
 
 .reviews article {
@@ -436,38 +521,38 @@ aside .content-wrapper .form{
 }
 
 /****** FAQ ******/
-.faq .content-wrapper{
+.faq .content-wrapper {
     justify-content: space-between;
-}
-.faq-content {
-    display: flex;
-    flex-basis: 40%;
-}
+  }
 
-.faq h2 {
+  .faq-content {
+    flex-basis: 40%;
+  }
+
+  .faq h2 {
     width: 100%;
-}
+  }
 
 /***** About ******/
 .mission-content {
     display: flex;
     justify-content: space-between;
-    align-items:center;
-}
+    align-items: center;
+  }
 
-.mission-content p {
+  .mission-content p {
     width: 40%;
-}
+  }
 
-.contact-section, .content-wrapper h2 {
+  .contact-section .content-wrapper h2 {
     width: 80%;
-}
+  }
 
-.contact-content {
+  .contact-content {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start
-}
+    align-items: flex-start;
+  }
 
 /* Footer */
 footer .content-wrapper {
