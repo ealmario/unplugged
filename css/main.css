@@ -250,6 +250,13 @@ footer .social-icons p {
     align-items: center;
 }
 
+.social-icons i {
+    background: #527158;
+    border-radius: 30px;
+    padding: 10px;
+    font-weight: lighter;
+}
+
 .footer .social {
     display:flex;
     justify-content: space-between;
@@ -326,6 +333,7 @@ input[type=button] {
     font-size: 3.75em;
     margin-bottom: 40px;
 }
+
 .features h2 {
     margin-bottom: 60px;
 }
@@ -650,6 +658,11 @@ footer .copyright {
     width: 100%;
 }
 
+.social-icons a {
+    display: flex;
+    justify-content: center;
+    padding: 0 10px;
+}
 /****** FAQ ******/
 .faq .content-wrapper {
     justify-content: space-between;
