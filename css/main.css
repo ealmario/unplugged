@@ -129,8 +129,9 @@ textarea {
  h3,
  h4 {
     font-family: 'Poppins', sans-serif;
-    margin: 20px 0;
+    font-weight: 500;
     font-size: 1.125em;
+    margin: 20px 0;
 }
 
  p {
@@ -201,12 +202,13 @@ header nav {
     font-weight: 700;
     text-transform: uppercase;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-flow: row wrap;
 }
 
 header nav ul {
+    padding-left: 0;
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -236,14 +238,8 @@ footer .contact {
     margin-bottom: 50px;
 }
 
-footer .social {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 footer .social-icons {
-    display:flex;
+    display: flex;
     justify-content: space-around;
     align-items: center;
 }
@@ -251,6 +247,12 @@ footer .social-icons {
 footer .social-icons p {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.footer .social {
+    display:flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -318,7 +320,6 @@ input[type=button] {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    margin: 0;
 }
 
 .features h2 {
@@ -366,6 +367,21 @@ input[type=button] {
     flex-flow: row wrap;
 }
 
+.map figure {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+.map iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .contact-section{
     background: #2a423a;
     display: flex;
@@ -379,7 +395,7 @@ input[type=button] {
 }
 /*------------ Mobile - FAQ ------------*/
 .faq {
-    background: #527158
+    background: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -497,6 +513,18 @@ input[type=button] {
     margin: 100px 0;
 }
 
+h2 {
+    font-size:  2.25em;
+    line-height: 1.33;
+}
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.25;
+}
+
+
+
 /* Header Styles */
 header {
     justify-content: space-around;
@@ -507,8 +535,13 @@ header .content-wrapper {
     justify-content: space-between;
 }
 
+header figure {
+    width: 30%;
+}
+
 header nav {
     width: 20%;
+    font-size: 1em;
 }
 
 header nav ul {
@@ -517,6 +550,14 @@ header nav ul {
 
 .header-divider {
     display: none;
+}
+
+/* Hero */
+
+.hero-image h1 {
+    font-size: 3em;
+    line-height: 1;
+    margin: 0;
 }
 
 /* Aside */
@@ -535,26 +576,72 @@ aside .content-wrapper .form{
 }
 
 /* Features */
+.features h2 {
+    margin: 0 20px 20px 0;
+}
+
 .features article {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
     flex-basis: 50%;
-  }
+}
   
-  .features .features-item-description {
+.features .features-item-description {
     width: 50%;
-  }
+}
 
 /* Reviews */
+.reviews article {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews h2 {
+    width: 90%;
+    margin: 0 0 20px 0;
+}
+
+.reviews h3 {
+    width: 75%;
+    margin: 0;
+    font-weight: lighter;
+}
+
+.reviews article figure,
 .reviews article div {
     width: 49%;
 }
 
-.reviews article {
+/* Footer */
+footer .content-wrapper {
+    width: 65%;
+    margin: 100px 0;
+}
+
+footer .footer-content{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+footer .contact {
+    margin-bottom: 0;
+}
+
+footer h4 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+footer p {
+    line-height: 1.285;
+}
+
+footer .copyright {
+    width: 100%;
 }
 
 /****** FAQ ******/
@@ -575,39 +662,36 @@ aside .content-wrapper .form{
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
+}
 
-  .mission-content p {
+.mission-content p {
     width: 40%;
-  }
+}
 
-  .contact-section .content-wrapper h2 {
+.map figure {
+    padding-bottom: 59%;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contact-content .content-wrapper h2 {
     width: 80%;
-  }
+}
 
-  .contact-content {
+ .contact-content {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-  }
-
-/* Footer */
-footer .content-wrapper {
-    width: 65%;
-    margin: 100px 0;
-} 
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-footer .contact {
-    margin-bottom: 0;
 }
 
-footer .copyright {
-    width: 100%;
+.contact-section h4{
+    font-size: 1.5em;
 }
 
 }
@@ -662,6 +746,11 @@ aside .content-wrapper .form{
     width: 100%;
 }
 
+.map figure {
+    padding-bottom: 38%;
+}
+
+.map 
 .contact-section .content-wrapper h2 {
     margin-bottom: 40px;
 }
